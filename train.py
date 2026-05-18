@@ -57,7 +57,7 @@ model = PPO(
     verbose=1,
 )
 
-print("🚀 Training started. Open TensorBoard to watch live:")
+print("Training started. Open TensorBoard to watch live:")
 print("   tensorboard --logdir ./logs/\n")
 
 model.learn(
