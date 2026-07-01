@@ -36,7 +36,6 @@ Same idea. Bigger computer.
 | Score | ~50 | **605** |
 | Steps before falling | 40 | **122** |
 | Training time | - | **5 minutes** |
-| Explained variance | **0.936** (value network converged) |
 | Total attempts | - | **1,000,000** |
 
 ## The Algorithm — PPO
@@ -62,6 +61,7 @@ behaviour looks like:
 | Moving forward fast | +1.25 per step |
 | Staying upright | +5.0 per step |
 | Using too much joint force | -0.1 (wasteful) |
+| Explained variance | **0.936** (value network converged) |
 | Slamming into the ground | -0.0005 |
 
 Designing this reward function is the most important 
