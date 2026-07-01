@@ -1,4 +1,4 @@
-# 🤖 I Taught a Robot to Walk!
+#  I Taught a Robot to Walk!
 
 ![Robot Walking](results/demo.gif)
 
