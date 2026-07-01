@@ -36,6 +36,7 @@ Same idea. Bigger computer.
 | Score | ~50 | **605** |
 | Steps before falling | 40 | **122** |
 | Training time | - | **5 minutes** |
+| Explained variance | **0.936** (value network converged) |
 | Total attempts | - | **1,000,000** |
 
 ## The Algorithm — PPO
